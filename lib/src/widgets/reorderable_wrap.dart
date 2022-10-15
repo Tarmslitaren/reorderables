@@ -596,6 +596,7 @@ class _ReorderableWrapContentState extends State<_ReorderableWrapContent>
         break;
     }
     return Wrap(
+      clipBehavior: Clip.none,
       direction: widget.direction,
       runAlignment: runAlignment,
       crossAxisAlignment: widget.crossAxisAlignment,
